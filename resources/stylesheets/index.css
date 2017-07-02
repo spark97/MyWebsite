@@ -98,3 +98,17 @@
     border: none;
     box-shadow: 0;
 }
+.contact
+{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color:black;
+}
+
+.contact-details
+{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color:grey
+    ;
+}
