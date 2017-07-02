@@ -1,0 +1,75 @@
+.container-fluid
+{
+    height:500px
+}
+.row .poster
+{
+    height:100%;
+    width:100%
+}
+.bg-image{
+    height:100%;
+    width:100%; 
+}
+.profile-image
+{
+    height:100%;
+    width:100%;
+    border-radius: 20px;
+}
+.profile-pic
+{
+    margin-top: -420px;
+    height:350px;
+}
+.info .name{
+    z-index: 2;
+    margin-top: -420px;
+    text-align: center;
+    font-size: 50px;
+    color : #2471A3;
+    font-family: 'Crimson Text', serif;
+}
+.fa
+{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+.aboutme
+{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color:black;
+}
+.aboutmedetails
+{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color:grey
+    ;
+}
+.mywork
+{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color:black;
+}
+.myworkdetails
+{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color:grey
+    ;
+}
+.affix
+{
+    top:0;
+    width:100%
+}
+.custom
+{
+    width:100px;
+    align-content: center;
+    color: black
+}
