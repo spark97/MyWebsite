@@ -9,6 +9,7 @@ app.use(express.static('./resources/bootstrap/css'));
 app.use(express.static('./resources/stylesheets'));
 app.use(express.static('./resources/js'));
 app.use(express.static('./resources/image'));
+app.use(express.static('./resources/files'));
 
 
 app.get('/',function(request,respone){
@@ -16,7 +17,7 @@ app.get('/',function(request,respone){
 });
 
 app.get('/resume',function(request,response){
-    alert('Resume');
+    response.sendFile(path.join(__dirname+"/resources/files/resume.pdf"));
 });
 
 var port = process.env.port || 3000;
