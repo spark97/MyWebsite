@@ -80,17 +80,21 @@
 }
 .project-details
 {
-    margin-top: -50px;
+    margin-top: -60px;
     font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 10px;
 }
 .projectthumbnail:hover
 {
-    opacity: 0.5;
-    -webkit-filter: grayscale(100%);
+    opacity: 0.2;
+    -webkit-transform:scale(1.25);
+    /**-webkit-filter: grayscale(100%);**/
 }
 .navbar{
     backface-visibility: 0
 }
 .thumbnail{
     border: none;
+    box-shadow: 0;
 }
