@@ -19,5 +19,7 @@ app.get('/resume',function(request,response){
     alert('Resume');
 });
 
+var port = process.env.port || 3000;
 
-app.listen(2500||process.env.PORT);
+app.listen(port);
+//app.listen(2500||process.env.PORT);
