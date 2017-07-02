@@ -73,3 +73,24 @@
     align-content: center;
     color: black
 }
+.projectthumbnail
+{
+    height: 1050;
+    width: 1050;
+}
+.project-details
+{
+    margin-top: -50px;
+    font-size: 18px;
+}
+.projectthumbnail:hover
+{
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%);
+}
+.navbar{
+    backface-visibility: 0
+}
+.thumbnail{
+    border: none;
+}
